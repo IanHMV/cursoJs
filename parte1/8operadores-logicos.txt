@@ -1,0 +1,4 @@
+Te dejo link:
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators#logico
+
+Se utilizan normalmente con valores booleanos (lógicos); cuando lo son, devuelven un valor booleano.

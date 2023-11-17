@@ -1,0 +1,19 @@
+Document - Metodos de seleccion de elementos:
++ getElementById() - selecciona un elemento por ID
+    
+    parrafo = document.getElementById("parrafo");
+
++ document.getElementsByTagName() - selecciona todos los elementos que coincidan con el nombre de la etiqueta especificada.
+    
+    parrafo = document.getElementsByTagName("p");
+    document.write(parrafo[1]) <- no recomendado
+     
++ document.querySelector() - devuelve el primer elemento que coincida con el grupo especificado de selectores.
+
+    parrafo = document.querySelector("#parrafo2");
+    document.write(parrafo)
+
++ document.querySelectorAll() - devuelve todos los elementos que coincidan con el grupo especificado de selectores.
+
+    parrafo = document.querySelectorAll(".parrafo");
+    document.write(parrafo[0])

@@ -1,0 +1,12 @@
+Los arrays asociativos al igual que los arrays normales, son objetos
+
+la diferencia de estos con los anteriores, es que para llamar al contendio del array en la anterior necesitabas llamarlo por su posicion.
+
+PERO con de esta forma, se declara la variable, y despues del signo '=' abres corchetes y adentro vas declarando como se va a llamar el contenido del array,
+de esta forma podras llamarlo por su nombre, un ejemplo:
+
+let array = {
+    pc: "Pcerda",
+    ram: "16gb"
+};
+

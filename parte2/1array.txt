@@ -1,0 +1,8 @@
+El array ya no es un dato primitivo, sino que pasa a ser un objeto y este puede guardar distintos tipos de datos
+
+Los array arrancan desde la posicion 0
+
+Para mostrar poner el nombre de la variable y entre corchetes la posicion:
+
+variable[posicion]
+

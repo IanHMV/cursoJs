@@ -1,0 +1,158 @@
++ concat()- junta dos o mas cadenas y retorna una nueva
+    sintaxis:
+    resultado = cadena.concat("hola");
+    
+    donde cadena es una variable con string y se le concatena la palabra hola
+
+    o tambien puedes concatenar 2 variables:
+    resultado2 = cadena.concat(cadena2);
+    
++ startWhith()- si una cadena termina con los caracteres de otra cadena, devuelve true, sino devuelve flase.
+    sintaxis:
+    let cadena="cadena de prueba ";
+    let cadena2="cadena ";
+    
+    resultado2 = cadena.startsWith(cadena2);
+
+    y devuelve true, porque empieza con cadena
+
++ endsWith()- si una cadena termina con los caracteres de otra cadena, devuelve true, sino devuelve false
+    sintaxis:
+    let cadena="cadena de prueba ";
+    let cadena2="prueba ";
+
+    resultado2 = cadena.endsWith(cadena2);
+
+    devuelve true
+
++ includes()-  si una cadena puede encontrarse dentro de otra cadena, devuelve true, sino devuelve false.
+
+    let cadena="cadena de prueba ";
+    let cadena2="prueba ";
+
+    resultado2 = cadena.includes(cadena2);
+
+    devuelve true
+
++ indexOf()- devuelve el indice del primer caracter de la cadena, sino exiteste , devuelve -1
+    let cadena="cadena de prueba ";
+    let cadena2="prueba ";
+
+    resultado2 = cadena.indexOf(cadena2);
+
+    devuelve un 10
+
+
++ lastIndex()- devuelve el ultimo indice del primer caracter de la cadena, si no existe, devuelve -1.
+    let cadena="cadena de prueba prueba ";
+    let cadena2="prueba ";
+
+    resultado2 = cadena.lastIndexOf(cadena2);
+
+    devuelve 17 porque agarra el la primer letra del ultimo "prueba"
+
++ pdStart()[propuesta de Estandar]- Rellenar cadena al principio con los caracteres deseados.
+    let cadena="abc";
+    let cadena2="";
+
+    resultado2 = cadena.padStart(6,"a");
+
+    devuelve aaaabc, como vez no te devuelve 6 "a", sino que te que agrega 3 a para que sean 6
+
++ padEnd()[propuesta de ECMA]- Rellenar cadena al final con los caracteres deseados.
+    let cadena="abc";
+    let cadena2="";
+
+    resultado2 = cadena.padEnd(6,"a");
+
+    nos devuelve abcaaa, en lugar de ponerte las "a" al principio, te las pone al final
+
+
++ repeat()- Devuelve el ultimo indice del primer caracter de la cadena, si no existe, devuelve -1.
+
+    let cadena="abc";
+    let cadena2="";
+
+    resultado2 = cadena.repeat(2);
+
+    devuelve abcabc
+
+
++ split()- Divide la cadena como le pidamos. Para esto nos convierte lo que le demos en un array
+
+    let cadena="hola, como, estas";
+    let cadena2="";
+
+    resultado2 = cadena.split(",");
+
+    document.write(resultado2[0]);
+
+    devuelve "hola", pues como nos lo convierte en array, en la posicion 0 esta el hola
+
+    otra cosa que hace es:
+
+    let cadena="hola como estas";
+    let cadena2="";
+
+    resultado2 = cadena.split("como");
+
+    document.write(resultado2[0]);
+
+    devuelve "hola" y tambien nos elimina el "como" pues es lo que le damos como indice de separacion
+
+
++ substring()- Nos retorna un pedazo de la cadena que seleccionamos.
+
+    sintaxis:
+    let cadena="ABCDEFG";
+    let cadena2="";
+
+    resultado2 = cadena.substring(0,2);
+    
+    devuelve "AB", pues la posicion 2 no nos la cuenta, nos cuenta 1 antes, nos muestra la que arranca pero no la que termina 
+
++ toLowerCase()- Convierte una cadena a minuscula.
+    sintaxis:
+    let cadena="ABCDEFG";
+    let cadena2="";
+
+    resultado2 = cadena.toLowerCase(cadena);
+
+    devuelve "abcdefg"
+
++ toUpperCase()- Convierte una cadena a mayuscula.
+
+    sintaxis:
+    let cadena="avc";
+    let cadena2="";
+
+    resultado2 = cadena.toLocaleUpperCase(cadena);
+
+    devuelve "AVC"
+
++ toString()- Convierte a string y es un Metodo que devuelve una cadena que representa al objeto espcificado. 
+
+    let cadena=345;
+    let cadena2="";
+
+    resultado2 = cadena.toString();
+
+    document.write(2 + resultado2);
+
+    y devuelve "2345" puesto a que no realiza operaciones, sino que nos lo convierte a string y lo concatena. Aunque puede que a veces por operaciones muy simples pueda hacer las operaciones
+
++ trim()- Elimina los espacios en blanco al principio y al final de una cadena.
+    sintaxis:
+    let cadena="         p        ";
+    let cadena2="";
+
+    resultado2 = cadena.trim();
+
+    document.write(resultado2 + `<br>`);
+
+    document.write(resultado2.length);
+
+    lo cual nos devuelve p y 1, puesto a que borra los espacios en blanco
+
+    tambien existe:
+    + trimEnd() y + trimStart(), que te elimina los espacios en blanco del principio o del final dependiendo cual uses

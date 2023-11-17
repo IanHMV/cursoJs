@@ -1,0 +1,4 @@
+const titulo = document.querySelector(".titulo");
+
+titulo.style.backgroundColor = "#a22";
+titulo.style.padding = "30px";

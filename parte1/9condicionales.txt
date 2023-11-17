@@ -1,0 +1,8 @@
+if():
+Lo que esta adnetro del bloque if, solo se va a mostrar si es que este es verdadero
+
+else if():
+Puedes poner infinitos de estos, estos salen a flote cuando la primera condicion no se cumple
+
+else:
+Esto se ejecuta cuando ninguno de los dos se cumple

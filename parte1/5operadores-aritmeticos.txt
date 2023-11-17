@@ -1,0 +1,5 @@
+Operadores aritmeticos:
+Los operadores aritmeticos toman valores numericos (ya sean literales o variables) como sus operandos y retornan un valor numerico unico
+
+Hay varios, asi que te pongo un link en el que puedes varlos:
+https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Math

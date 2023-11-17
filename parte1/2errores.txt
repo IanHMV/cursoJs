@@ -1,0 +1,5 @@
+undefined = Significa que la variable exite, pero no tiene valor o no esta definida 
+
+null = esto significa de que la variable tiene un valor, y ese valor es que no tiene ningun valor
+
+NaN = Not at number, es cuando no existe coerencia, por ejemplo, si multiplicamos un numero por una letra, marcaria NaN

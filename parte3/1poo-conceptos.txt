@@ -1,0 +1,51 @@
+Clases:
+Las clases crean objetos (LAS CLASES SE DEFINEN CON "Const")
+
+Objetos: 
+Son los resultados de las clases
+
+Atributos:
+Son las propiedades, las caracteristicas del objeto.
+
+Metodo:
+Son las cosas que puede hacer nuestro objeto.
+
+Constructor:
+Es una particularidad que tienen las clases, que es una funcion obligatoria
+Cuando se crea una clase tenemos que hacer un constructor que nos va a construir las propiedades del objeto.
+
+Instanciacion:
+Cuando se finaliza todo se dice que la clase esta instanciada.
+
+Por ejemplo:
+
+Una clase se define poniendo la palabra 'class' seguido del nombre de la clase
+
+Despues se crea el contructor con sus parametros
+
+Luego se crean las propiedades, en donde se le asiganan los parametros del constructor para que todo lo que nosotros le introduzcamos se relacione con el objeto
+
+Una vez teniendo eso se le pueden agregar metodos, que es lo que va a hacer nuestra objeto, que son funciones, pero si estan adentro de una clase se les conoce como metodos
+
+
+class animal{ 
+    constructor(especie, edad, color) { //Lo de adentro del parentecis son parametros
+
+        this.especie = especie; //this.especie (una propiedad), no se refiere a los parametros, se refiere al objeto
+
+        this.edad = edad; //Lo que va despues del igual, son los parametros
+
+        this.color=color;
+
+        this.informacion=`Soy ${this.especie}, tengo ${this.edad} anos y soy de color ${this.color}`
+
+    }
+
+    //Las funciones que pongamos adentro de la clase ya no se llaman funciones, se llama 'metodos'
+
+    //Un metodo no puede ser una funcion flecha
+    
+    verInformacion(){
+        document.write(this.informacion);
+    }
+}

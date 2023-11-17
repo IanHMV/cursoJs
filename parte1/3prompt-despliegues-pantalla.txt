@@ -1,0 +1,5 @@
+alert() = Es para lanzar un mensaje emergente de la parte de arriba del viewport
+
+prompt()= sirve para introducir el titulo de un mensaje en pantalla en el que en la parte de abajo tiene un espacio para que nosotros podamos escribir
+
+document.write() = nos escribe en la pantalla el valor que le hayamos dado

@@ -1,0 +1,39 @@
+Atributos de los Input:
++ className - Te arroja lo que tiene en el atributo class
+
+    document.write(input.className);
+
++ value - Te arroja lo que esta adentro del input
+
+    document.write(input.value);
+
++ type - Te arroja de que tipo es el input
+
+    document.write(input.type);
+
+    input.type = "color"; <- puedes modificarlos de esta manera
+
++ accept - Te permite seleccionar que acepta el input
+
+    input.accept = "image/png";
+
++ form - 
+
+        <form id="formulario">
+        <input type="text" name="" id="">
+        <input type="submit" name="" id="">
+        </form>
+
+        <input type="submit" name="" id="" form="formulario"> <- para que envie los datos del anterior formulario aunque el boton no este dentro
+
++ minlength - Defines el minimo de caracteres que tiene que tener un input para poder enviar los datos
+
+    input.minLength = 4;
+
++ placeholder - Sirve para poner un texto en el input
+
+    input.placeholder = "Que pasa";
+
++ required - Sirve para que no te deje enviar los datos si no escribiste nada, pues es un campo requerido.
+
+    input.required = " ";

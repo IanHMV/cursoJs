@@ -1,0 +1,22 @@
+Metodos para definir, obtener y eliminar valores
+
++ etAttribute() - Modifica el valor de un atributo
+
+    const rangoEtario = document.querySelector(".rangoEtario");
+
+    rangoEtario.setAttribute("type","range"); <- modifica o asigna un valor, en este caso el 'range'
+
++ getAttribute();
+
+    rango = rangoEtario.getAttribute("type");
+
+    document.write(rango); <- me da el tipo de dato que es tipe
+
++ removeAttribute();
+
+    const rangoEtario = document.querySelector(".rangoEtario");
+
+    rangoEtario.removeAttribute("type"); <- remueve el type.
+
+Parte:
+https://youtu.be/z95mZVUcJ-E?t=28793

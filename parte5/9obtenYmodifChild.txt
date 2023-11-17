@@ -1,0 +1,54 @@
+Obtencion y modificacion de Childs (Hijos)
+
+- firstChild (no tiene que tener espacios entre el contenedor y el elemento o te va a marcar #text)
+
+    const contenedor = document.querySelector(".contenedor");
+
+    const primerHijo = contenedor.firstChild;
+
+    console.log(primerHijo);
+
+- lastChild  (no tiene que tener espacios entre el contenedor y el elemento o te va a marcar #text)
+
+
+    const contenedor = document.querySelector(".contenedor");
+
+    const primerHijo = contenedor.lastChild;
+
+    console.log(primerHijo);
+
+- firstElementChild (No importa que haya espacios entre el contenedor y el elemento)
+
+    const contenedor = document.querySelector(".contenedor");
+
+    const primerHijo = contenedor.firstElementChild;
+
+    console.log(primerHijo);
+
+- lastElementChild
+
+    const contenedor = document.querySelector(".contenedor");
+
+    const primerHijo = contenedor.lastElementChild;
+
+    console.log(primerHijo);
+
+- childNodes
+
+    const contenedor = document.querySelector(".contenedor");
+
+    const primerHijo = contenedor.childNodes;
+
+    console.log(primerHijo);
+
+    No devuelve un array, devuelve un node list (incluye el text si hay espacios)
+    
+- children
+
+    const contenedor = document.querySelector(".contenedor");
+
+    const primerHijo = contenedor.children;
+
+    console.log(primerHijo);
+
+    No devuelve un array, y solamente nos muestra las etiquetas (sin el text)

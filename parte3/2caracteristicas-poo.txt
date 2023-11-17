@@ -1,0 +1,28 @@
++Abstraccion:
+ Es tratar de decir reducir lo mas que podemos el objeto. Es decir Si tenemos un perro. Simplemente agregamos que tipo de raza es, tamano,etc. Pero el color de ojos, tamano de orejas,eso esta de mas
+
++Modularidad:
+ Es la capacidad de resolver un problema grande, dividiendolo en pedazos.
+
++Encapsulamiento:
+ Es hacer que todos los datos sean privados, haciendo que el usuario no pueda acceder tan facil. Para que la informacion no se filtre.
+
++Polimorfismo:
+ Es la capacidad de un objeto de comportarse distinto conforme a sus propiedades.
+
++Herencia:
+ Lo que hace la herencia es utilizar metodos y propiedades de clases anteriormente creadas
+
++Metodos static:
+ Los metodos static sirve aun cuando la clase no se instancia, pero para activarla tienes que poner la siguiente sintaxis
+
+ Ejemplo:
+ Perro.ladrar(); // Aqui lo que se hace es llamar a la clase perro para ejecutar el metodo "ladrar", con esto se puede ejecutar el metodo aun sin instanciar la clase  
+
++Getters:
+ Los metodos Getters sirven para obtener un valor
+
++Setters:
+ Los metodos Setters sirven para modificar un valor o definirlo
+
+ 

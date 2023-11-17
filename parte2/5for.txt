@@ -1,0 +1,12 @@
+La diferencia de un for a un while o un do while, es que no se definen las vueltas que este va a dar, en cambio en el for, si se define esto.
+
+Las partes de un for se dividen en 3:
+Declaracion e inicializacion
+Condicion
+Decremento o incremento
+
+Por ejemplo:
+
+for (let i = 0; i < 6; i++) {
+    document.write(i+"<br>")
+}

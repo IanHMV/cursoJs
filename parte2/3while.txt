@@ -1,0 +1,12 @@
+While es un bucle que se va en el que se va a entrar si la condicion se cumple, y se va a salir de este bucle hasta que la condicion deje de ser verdadera.
+
+ejemplo:
+
+let numero = 0;
+
+while (numero < 10){
+    numero++;
+    document.write(numero);
+}
+
+Lo que hace el siguiente codigo es que te va a imprimir todos los numeros del 1 al 10, ya que imprime todos hasta que llegue a ser mayor a 10

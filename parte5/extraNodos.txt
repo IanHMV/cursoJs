@@ -1,0 +1,7 @@
+Nodos Extra, propiedades:
+
+- closest(): Toma el contenedor mas cercano
+
+    const div = document.querySelector(".div-3");
+
+    console.log(div.closest(".div")); 

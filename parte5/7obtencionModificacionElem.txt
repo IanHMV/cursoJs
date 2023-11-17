@@ -1,0 +1,16 @@
+Obtencion y modificacion de elementos
+
++ textContent - devuelve el texto de cualquier nodo.
+
+   let resultado = titulo.textContent;
+    document.write(resultado); 
+
++ innerHTML - devuelve el contenido html de un elementos
+
+    let resultado = titulo.innerHTML;
+    document.write(resultado);
+
++ outerHTML - devuelve el codigo HTML completo del elemento
+
+    let resultado = titulo.outerHTML;
+    document.write(resultado);

@@ -1,0 +1,33 @@
+For in:
+lo que hace el for in es que recorre las posiciones y te va dando la posicion de los elementos que hay.
+por ejemplo:
+
+let animales = ["gato","perro","rex"];
+
+
+for (animal in animales){
+    document.write(animal + "<br>")
+}
+
+Aqui lo que se hace es que 'animal' va a ir recorriendo  te va a ir dando la posicion de los elementos que hay.
+En este caso te va a imprimir: 0 1 2
+Porque es la posicion de los elementos que estan adentro del array
+
+Solo lo vas a usar cuando quieras reccorer un array y quieras que te vaya dando las posiciones de los elementos.
+
+
+For of:
+En cambio el for of, en lugar de darte las posiciones, te da el valor de los elementos, en este caso como son strings, te va a arrojar lo que hayas escrito.
+Por ejemplo:
+
+let animales = ["gato","perro","rex"];
+
+for (animal of animales){
+    document.write(animal + "<br>")
+}
+
+En este caso lo que te va a imprimir seria: gato perro rex
+Pues es lo que tienes adentro del array 
+
+Hay algo sobre los labels, pero la vdd no lo entendi, que lo que hace es terminar un el bucle, si lo quieres repasar velo aqui:
+https://youtu.be/z95mZVUcJ-E?t=10976

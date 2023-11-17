@@ -1,0 +1,26 @@
+Atributos globales:
++ contenteditable - Indica si el elemento puede ser modificable por el usuario (bool)
+
+    titulo.setAttribute("contentEditable","false")
+
++ dir - Indica la direccionalidad del texto
+
+    titulo.setAttribute("dir","rtl"); <- de derecha a izquierda
+    titulo.setAttribute("dir","ltr"); <- de izquieda a derecha
+
++ hidden - indica si el elemento aun no es, o ya no es, relevnte.
+
+    titulo.setAttribute("hidden","true"); <- sirve para desaparecer elementos
+
++ style - contiene decalraciones de estilo Css para ser aplicadas al elemento
+
+
+
++ tabindex - indica si el elemento puede obtener un focus de input
+
+    titulo.setAttribute("tabindex","1"); <- Determina si puedes hacerle focus con la tecla TAB, si los ordens del 1 al 10, entonces en ese orden se van a ir seleccionando 
+
++ title - contiene un texto con informacion relacionada al elemento al que pertenece
+
+    titulo.setAttribute("title","hola"); <- es para que al poner el mouse encima del titulo, arroje una descripcion.
+    

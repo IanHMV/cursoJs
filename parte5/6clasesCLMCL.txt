@@ -1,0 +1,32 @@
+Clases, ClassList y Metodos de ClassList
+Definicion y usos
++ add() - anade una clase
+    
+    const titulo = document.querySelector(".titulo");
+    titulo.classList.add("grande");
+
++ remove() - remueve una clase
+
+    titulo.classList.remove("grande");
+
++ item() - devuelve la clase del indice especificado
+
+    let valor = titulo.classList.item(1);
+    document.write(valor); <- Nos devuelve la clase en la posicion 1
+
++ contains() - verifica si ese elemento posee o no, la clase especificada.
+
+    let valor = titulo.classList.contains("grande");
+    document.write(valor); <- si tiene la clase, nos devuelve true
+
++ replace() - reemplaza una clase por otra
+
+
+
++ toggle() - si no tiene la clase especificada, la agrega, si ya la tiene, la elimina.
+
+    let valor = titulo.classList.toggle("grande"); <- si tiene la clase, la elimina, y si no la tiene, la agrega
+
+    let valor = titulo.classList.toggle("grande",true); <- si la tiene, la deja te todos modos, si no la tiene, la grega
+
+    let valor = titulo.classList.toggle("grande",false); <- siempre la elimina

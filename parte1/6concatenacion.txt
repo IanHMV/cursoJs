@@ -1,0 +1,51 @@
+
+++Concatenacion con '+' :
+La concatenacion ocurre cuando agregas el signo '+' entre dos variables.
+
+Si tu  metes un texto y lo demas son variables en las que estan almacenados numeros, esto va a dar como resultado, que toda esa concatenacion que tu hagas sea texto. 
+
+un ejemplo :
+num1= 1
+num2= 2
+ conc= "" + num1 + num2
+
+ esto va a dar como resultado 12, porque como metiste un texto, todo se convierte a una cadena de texto.
+
+
+++Concatenacion con '.concat' :
+Concat es un metodo que solamente funciona con las cadenas de string, si no hay una cadena, este no va a funcionar
+funciona agregandole el metodo entre las variables que quieres utulizar de a siguiente forma, 'variable1.concat(variable2)'
+
+ejemplo:
+var1= "1"
+var2=  2
+var3= var1.concat(var2)
+esto va a dar como resultado 12, dado a que solo se concatenaron los numeros
+
+++Concatenacion con '${}' (backticks)
+Esto nos permite meter una variable adentro del texto que se esta escribiendo y que se le va a asignar a otra variable
+
+ejemplo:
+frase1= "ian";
+frase2= `soy ${frase1} y estoy caminando`;
+
+esto va a dar como resultado la frase completa al llamar a la varible frase2. 
+Tambien, una ventaja que tiene esto es que puedes dar espacios y esto no va a afectar a lo que esta escrito.
+
+ejemplo:
+frase1= "ian";
+frase2= `soy ${frase1} y 
+estoy caminando`;
+
+Esto va a dar el mismo resultado que arriba
+
+Tambien se pude meter codigo html adentro de backticks
+
+ejemplo:
+frase= `<div></div>`
+
+
+NO PUEDES METER 1 SOLO TIPO DE COMILLAS ADENTRO DE LA MISMA ORACION
+ejemplo:
+
+forma= "blalbal "bla" blalba"; <- da error

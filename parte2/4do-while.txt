@@ -1,0 +1,13 @@
+El do while a diferencia del while, no le interesa si se cumple la condicion o no para entrar, sino que primero entra a l condicion y despues pregunta.
+Y cuando deje de ser verdadero, es cuando este se va a dejar de ejecutar, un ejemplo de esto seria:
+
+let numero = 0;
+
+do{
+    
+    document.write(numero + "<br>");
+    numero++;
+
+}while(numero<6)
+
+Este a diferencia del while, ejecuta por lo menos 1 vez la condicion

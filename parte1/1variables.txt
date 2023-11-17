@@ -1,0 +1,8 @@
+var = Una variable declarada con var tiene un alcance global o de función, lo que significa que puede ser accesible desde cualquier parte del código que se encuentre dentro del mismo archivo. Sin embargo, las variables declaradas con var pueden ser reasignadas en cualquier momento.
+
+let = A diferencia de var, una variable declarada con let tiene un alcance de bloque, lo que significa que solo es accesible dentro del bloque en el que se declara. Además, las variables declaradas con let también pueden ser reasignadas.
+
+const =  A diferencia de let y var, una variable declarada con const no puede ser reasignada una vez que se ha asignado un valor. Además, al igual que con let, una variable declarada con const tiene un alcance de bloque.
+
+IMPORTANTE!!! = const se tiene que inicializar cuando se declara
+

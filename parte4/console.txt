@@ -1,0 +1,84 @@
+Funciones de registro:
++ assert() - aparece un mensaje de error en la consola si la afirmacion es falsa. si la afirmacion es verdadera, no aparecera nada.
+
+    console.assert(5<3);
+
++ clear() - limpia la consola.
+
+    console.clear();
+
++ error() - Muestra un mensaje de error en la consola web.
+
+    console.error("Que hicisite"); <- desde el codigo o desde la consola
+
++ info() - Emite un mensaje informativo a la consola web. En firefox y chrome, se muestra un pequeno icono "i" junto a estos elementos en el regisro de la consola web.
+
+    console.info("Muy bien")
+
++ log() - muestra un mensaje en la consola web.
+
+    console.log("Que pasa")
+
++ table() - Esta funcion toma un argumento obligatorio: data, que debe ser un array o un objeto, y un parametro adicional: columns y nos muestra una tabla en consola.
+    
+    console.table([4,5,6,7,2])
+    
++ warn() - Imprime un mensaje de eadvertencia en la consola web.
+
+    console.warn("cuidado")
+
++ dir() - despliega una lista interactiva de las propiedades del objeto JavaScript especificado.
+
+    console.dir([4,5,6,7,4])
+
+Funciones de Conteo:
++ count() - Registra el numero de veces que se llama a count(). Esta funcion toma como argumento opcional una etiqueta.
+
+    console.count();
+    console.count();
+    console.count();
+    console.count();
+    console.countReset();
+    console.count();
+
++ countReset() - Resetea el contador console.count().
+
+    console.count();
+    console.count();
+    console.count();
+    console.count();
+    console.countReset();
+    console.count();
+
+---- Estas funciones nos sirve para saber cuantas veces se ejecuto una funcion.
+
+Funciones de agrupacion:
++group() - crea un nuevo grupo en linea en el registrop de la consola web.
+
+    console.group("frutas") <- el frutas es el nombre del grupo, si no quieres ponerle un nombre no escribas nada
+
++grupEnd() - Remueve un grupo en linea en el registro de la consola web.
+
+    console.groupEnd() <- Esto sirve para cerrar el grupo
+
++groupCollapsed() - Crea un grupo en linea pero contraido, el usuario debe expandirlo para verlo.
+
+    console.groupCollapsed("frutas")
+
+Funciones de temporizacion:
++ time() - inicia un temporizador
+
+    console.time()
+
++ timeLog() - Registra el valor actual de un temporizador
+
+    console.timeLog()
+
++ timeEnd() - Detiene un temporizador
+
+    console.timeEnd()
+
+----- Esto sirve para saber cuanto tarda el usuario en hacer esto.
+
+Para cambiar el color o estilo de la consola:
+console.log("%cHola%","color:black;background:red;");       <- tiene limitaciones

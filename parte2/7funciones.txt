@@ -1,0 +1,99 @@
++ Para hacer una funcion necesitas poner la palabra 'function' despues el nombre de tu funcion y parentecis seguido de corchetes.
+
+ Ejemplo:
+ function miFuncion() {
+
+ }
+
++ Return:
+ Es para que el codigo que ejecutemos en la funcion nos retorne un tipo de dato.
+
+ No te confundas, una cosa es lo que hace la funcion y otra cosa completamnente diferente es lo que retorna.
+ 
+ Si el 'Return' esta antes del procedimiento de la funcion, entonces se ejecuta solo el 'Return' y ahi se acaba la funcion (es como un break).
+
+
++ Funciones definiendo valores adentro del parentecis
+ Esto pasa cuando adentro del parentecis de la funcion nosotros escribimos variables que se van a utilizar en el codigo que se va a procesar
+
+ Por Ejemplo:
+
+ function suma(num1, num2) {
+    let res= num1+num2;
+    document.write(res);
+    document.write("<br>");
+    }
+ 
+ suma(14,5);
+
+ En este ejemplo como vez definimos las variables que vamos a usar adentro del parentecis (num1 y num2), para despues utilizarlas en el procedimiento que se ejecuta.
+
+ Y para darle valor a num1 y num2, se los damos cuando llamamos a la funcion (14 y 15). 
+
+
++ Funciones definiendo valores adentro del parentecis + Return
+ 
+ Ejemplo:
+
+ function suma(num1, num2) {
+    let res= num1+num2;
+    return res;
+ }
+
+ let resultado = suma(20,25);
+
+ document.write(resultado)
+ 
+ En este ejemplo se declaro una variable llamada 'resultado' en donde llama a la funcion suma y viene con 2 valores ya cargados (20 y 25), entonces se hace el procedimiento de la funcion suma con esos 2 valores y lo que de se guarda en la variable 'res' y el resultado que se guarda(45) se retorna y se guarda en 'resultado'.
+
++ Funciones con strings cargados
+
+ function saludar(nombre) {
+    let frase= `hola ${nombre}, como estas?`;
+    document.write(frase);
+ }
+
+ saludar("Ian")
+
+ Como vez, no importa si le mandas un string, de todos modos te lo toma y ejecuta la funcion
+
++ Scope:
+ El Scope es en pocas palabras que las variables definidas adentro de las funciones no existen fuera de esta.
+ ATENCION:
+ Siempre tienes que definir las variables adentro de la funcion con 'let'. Pues si no esta se convierte en 'var' y entonces ya no seria una variable local que solo funciona adentro de la funcion, sino que seria una variable global que funcionaria fuera de la funcion tambien y eso puede ocacionar muchos problemas.
+
++ Otra forma de declarar una funcion es:
+    const saludar = function(nombre) {
+     let frase= `hola ${nombre}, como estas?`;
+     document.write(frase);
+ }
+
+ saludar(pedro);
+
++ Funciones flecha:
+
+ -La funcion flecha se hace colocando la palabra 'const' (de constante), seguido del nombre de la funcion, despues se pone el signo '=' seguido de los parentecis en donde adentro podemos colocar una variable, despues se coloca la flecha con los signos '=>' y los corchetes
+
+ Ejemplo:
+
+ const saludar = (nombre)=>{
+    let frase= `hola ${nombre}, como estas?`;
+    document.write(frase);
+ }
+
+ saludar(pedro);
+ 
+ -Esta funcion tiene beneficios, ya que si solo tenemos una variable adentro del parentecis, no ocupamos ponerle los parentecis, que quedaria de la siguiente manera:
+
+ const saludar = nombre =>{
+    let frase= `hola ${nombre}, como estas?`;
+    document.write(frase);
+ }
+
+ saludar(pedro);
+ 
+ -TAMBIEN, si solamente tenemos 1 sola linea de codigo en nuestra funcion, la podemos simplificar aun mas quitandole los corchetes, quedaria asi:
+
+ const saludar = nombre => document.write(frese);
+
+ saludar(pedro);
